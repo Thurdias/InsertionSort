@@ -1,10 +1,8 @@
-package test;
-
 public class InsertionSort {
 	public static void main(String[] args) {
 		int[] vetor = new int[10];
 		
-		// preenche o vetor com números aleatórios
+		// preenche o vetor com nÃºmeros aleatÃ³rios
 		for(int i = 0; i < vetor.length; i++) {
 			vetor[i] = (int) (Math.random() * vetor.length);
 		}
